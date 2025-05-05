@@ -29,7 +29,7 @@ Os aplicativos do codigo estão configurados para os mais usados com audio no me
 <h3>##Atente-se</h3>
 <h3>A aplicação não se encerra sozinha, é necessario que se termine a tarefa no Gerenciador de Tarefas do windows</h3>
 
-<p>Para ter a experienxia do modulo, tenha o Arduino montado como na imagem, e baixe a aplicação no GitHub em CODE - DownloadZIP
+<p>Para ter a experiencia do modulo, tenha o Arduino montado como na imagem, e baixe a aplicação no GitHub em CODE - DownloadZIP
 Descompacte o arquivo e abra o diretorio AudioModuleSetup/AudioModuleEXE/dist
 onde se encontra o executavel do codigo.</p>
 
