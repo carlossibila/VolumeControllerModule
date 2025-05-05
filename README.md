@@ -19,13 +19,13 @@
 
 <h2>## Pré-requisitos</h2>
 <p>Antes de baixar, algumas observações e requisitos:</p>
-<p>O codigo em python tem alguns prints de debug que foram mantidos, apesar de o programa nao ter nenhuma interface onde seja visivel, as etapas, principalmente da conexão com os aplicativos usam prints para localização do processo no decorrer do desenvolvimento.
-Os aplicativos do codigo estão configurados para os mais usados com audio no meu caso (sinta-se à vontade para alterar usando a terminação correta):
-        '''APPS = {
+<p>O codigo em python tem alguns prints de debug que foram mantidos, apesar de o programa nao ter nenhuma interface onde seja visivel, as etapas, principalmente da conexão com os aplicativos usam prints para localização do processo no decorrer do desenvolvimento.</p>
+<p>Os aplicativos do codigo estão configurados para os mais usados com audio no meu caso (sinta-se à vontade para alterar usando a terminação correta):
+        <pre>'''APPS = {
             0: "spotify.exe",
             1: "discord.exe",
             2: "brave.exe"
-        }''' 
+        }''' </pre>
 </p>
 <h2>##Atente-se</h2>
 <h3>A aplicação não se encerra sozinha, é necessario que se termine a tarefa no Gerenciador de Tarefas do windows</h3>
