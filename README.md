@@ -27,15 +27,15 @@ Os aplicativos do codigo estão configurados para os mais usados com audio no me
             2: "brave.exe"
         }''' 
 </p>
-<h3>##Atente-se</h3>
+<h2>##Atente-se</h2>
 <h3>A aplicação não se encerra sozinha, é necessario que se termine a tarefa no Gerenciador de Tarefas do windows</h3>
 
-<p>Para ter a experiencia do modulo, tenha o Arduino montado como na imagem, e baixe a aplicação no GitHub em CODE - DownloadZIP
-Descompacte o arquivo e abra o diretorio AudioModuleSetup/AudioModuleEXE/dist
+<p>Para ter a experiencia do modulo, tenha o Arduino montado como na imagem, e baixe a aplicação no GitHub em CODE - DownloadZIP</p>
+<p>Descompacte o arquivo e abra o diretorio AudioModuleSetup/AudioModuleEXE/dist
 onde se encontra o executavel do codigo.</p>
 
-<p>Nunca tinha escrito um codigo de Arduino, então muito desse processo tive ajuda.
-Estou mais familiarizado com o python e essas bibliotecas usadas foram novas, entao também envolveu uma pesquisa.
+<p>Nunca tinha escrito um codigo de Arduino, então muito desse processo tive ajuda.</p>
+<p>Estou mais familiarizado com o python e essas bibliotecas usadas foram novas, entao também envolveu uma pesquisa.
 O projeto esta em desenvolvimento, e será atualizado em breve.</p>
 
 </body>
