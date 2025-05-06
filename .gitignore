@@ -1,0 +1,43 @@
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.Python
+venv/
+
+# Arquivos de ambiente e configuração
+.env
+.venv
+env/
+.env.local
+
+# Arquivos do IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos específicos do Arduino
+*.hex
+*.elf
+*.bin
+*.ino
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo usuário
+*.log
+*.tmp
+*.bak
+
+# Arquivos de banco de dados (se houver)
+*.db
+*.sqlite
+
+/serial_settings.json
+
+/dist/
+/build/
