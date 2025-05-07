@@ -14,7 +14,8 @@
 
 - Otimização do uso de processamento (uso de cpu alto demais chegando a 10% no taskManager)
 - Implementar o icone do programa na barra de programas em segundo plano do windows (atualmente o encerramento do programa só pode ser feito abrindo o task manager)
-- Implementar a tela LCD para interface </p>
+- Implementar a tela LCD para interface
+- Adicionar medidas de segurança para verificação de download </p>
 <p></p>
 
 <h2>## Pré-requisitos</h2>
