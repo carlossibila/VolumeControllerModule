@@ -37,7 +37,7 @@ Thumbs.db
 *.db
 *.sqlite
 
-/serial_settings.json
+*/serial_settings.json
 
-/dist/
-/build/
+*/dist/
+*/build/
