@@ -27,7 +27,7 @@
             1: "discord.exe",
             2: "brave.exe"
         } </pre>
-Para baixar somente o executavel E ter a experiencia do modulo, o arquivo .exe esta no diretorio 'dist'
+Para baixar somente o executavel e ter a experiencia do modulo, o arquivo .exe esta no diretorio 'dist'
 </p>
 <h2>## Atente-se ##</h2>
 <h3>A aplicação não se encerra sozinha, é necessario que se termine a tarefa no Gerenciador de Tarefas do windows</h3>
