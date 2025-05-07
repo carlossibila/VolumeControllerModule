@@ -3,7 +3,7 @@
 <h1>### VolumeControllerModule</h1>
 <p>VolumeControllerModule software and hardware</p>
 
-<img src="RepoImages\ArduinoSetup.jpeg" alt="SetupImage" width="200" >
+<img src="RepoImages\ArduinoSetup.jpeg" alt="ArduinoProtoboardSetupImage" width="200" >
 
 <h1>### O Projeto ###</h1>
 <p>O objetivo da ideia era controlar o volume do spotify enquanto em chamada na plataforma Discord, com isso configurei tanto o Arduino quanto o programa em Python para interpretar e executar ações com as informações dos inputs de botão e potênciometros montados de maneira simples em uma protoboard.</p>
