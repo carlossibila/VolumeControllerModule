@@ -1,0 +1,28 @@
+const int potPins[3] = {A0, A1, A2}; // Spotify, Discord, Brave
+const int botaoPin = 8;
+int lastValues[3] = {-1, -1, -1}; // Valores anteriores
+
+void setup() {
+  Serial.begin(250000); // Baudrate ultra-alto
+  pinMode(botaoPin, INPUT_PULLUP);
+}
+
+void loop() {
+  // Leitura dos potenciômetros (sem delay)
+  for (int i = 0; i < 3; i++) {
+    int value = map(analogRead(potPins[i]), 0, 1023, 0, 100);
+    if (abs(value - lastValues[i]) > 1) { // Só envia se mudar
+      Serial.print(i); Serial.print(":"); Serial.println(value);
+      lastValues[i] = value;
+    }
+  }
+
+  // Botão (edge detection)
+  static bool lastButtonState = HIGH;
+  bool currentState = digitalRead(botaoPin);
+  if (lastButtonState == HIGH && currentState == LOW) {
+    Serial.println("SCROLL");
+    delay(20); // Debounce mínimo
+  }
+  lastButtonState = currentState;
+}
